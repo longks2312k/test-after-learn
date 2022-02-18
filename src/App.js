@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Lession1 from './useState/Nomal';
+import TwoWay from './useState/TwoWay';
+import Todolist from './useState/Todolist';
+import UENomal from './useEffect/Nomal';
+import DomEvent from './useEffect/DomEvent';
+import TimerFs from './useEffect/TimerFs';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Lession1/> */}
+      {/* <TwoWay/> */}
+      {/* <Todolist/> */}
+      {/* <UENomal/> */}
+      {/* <DomEvent/> */}
+      <TimerFs/>
     </div>
   );
 }
