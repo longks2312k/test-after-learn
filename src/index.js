@@ -4,6 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function emitContent(id) {
+  setInterval(() => {
+    window.dispatchEvent(
+      new CustomEvent(`lesion ${id}`,{
+        detail: `Noi dung cua lesion ${id}`
+      })
+    )
+  },2000)
+}
+
+emitContent(1)
+emitContent(2)
+emitContent(3)
+emitContent(4)
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

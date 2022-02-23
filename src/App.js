@@ -4,7 +4,8 @@ import TwoWay from './useState/TwoWay';
 import Todolist from './useState/Todolist';
 import UENomal from './useEffect/Nomal';
 import DomEvent from './useEffect/DomEvent';
-import TimerFs from './useEffect/TimerFs';
+import CleanFS from './useEffect/CleanFs'
+import ChatApp from './useEffect/ChatApp';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <Todolist/> */}
       {/* <UENomal/> */}
       {/* <DomEvent/> */}
-      <TimerFs/>
+      <CleanFS/>
+      {/* <ChatApp/> */}
     </div>
   );
 }
